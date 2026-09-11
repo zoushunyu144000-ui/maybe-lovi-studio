@@ -20,15 +20,24 @@ This file contains confirmed project decisions. Do not place guesses here.
 - Current product images are references for future product direction.
 - Website structure and brand design can be built first.
 - Real product images will replace temporary concept/reference-direction imagery later.
+- Figma can use 5 concept product visuals for presentation, clearly treated as temporary/concept assets.
 
 ### Founder presence
 - May is open to appearing on the site.
-- Exact placement is not finalized.
-- Current recommendation is a concise founder section rather than making the entire site a personal-brand homepage.
+- Current direction is a concise founder section rather than making the entire site a personal-brand homepage.
+- Homepage balance should prioritize products over founder story, approximately 60% product / 40% brand story.
 
 ### Design
-- Final visual system must wait until the client sends more websites she likes.
 - Current base direction: macaron/pastel, simple Instagram-inspired, warm and refined.
+- Reference mix: clear structure inspired by Candle Club + warm/cozy illustrated commerce atmosphere inspired by Notebook Therapy / Neko Cafe.
+- First design round will cover the full agreed website, not only a few sample screens.
+- Figma must include both mobile and desktop versions.
+- Mobile is the primary priority; desktop should remain fully designed and consistent.
+
+### Figma / approval workflow
+- First complete the full UI design in Figma.
+- Show the client the design for confirmation before formal website generation/development.
+- Formal build starts after client confirms the design and pays the agreed first-stage/partial payment.
 
 ### Scope discipline
 - Shopping cart, checkout, payment gateway, inventory system, customer accounts, and other e-commerce functions are not treated as included unless separately confirmed.
