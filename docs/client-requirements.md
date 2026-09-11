@@ -33,11 +33,23 @@ Status: Working source of truth for confirmed client facts.
 6. Product image service
    - Initial agreement includes 5 aroma/candle product visuals.
 
+## Product origin / trust information
+The client wants website visitors to clearly understand two trust points:
+- the product / fragrance direction is connected to Korea
+- the brand has IFRA international fragrance certification / compliance material
+
+Important: before publishing these as factual trust claims, confirm the exact wording and evidence:
+- what exactly is from Korea: finished product, fragrance oil, raw material, formula, supplier, or another component
+- what IFRA document exists, who it applies to, and whether the correct public wording is certification, conformity, compliance, certificate, or supplier documentation
+
+Do not strengthen or broaden these claims beyond what the client can substantiate.
+
 ## Brand / visual direction already given
 - Soft macaron / pastel color direction
 - Simple Instagram-inspired feeling
 - Warm, caring, feminine, gift-oriented tone
 - Existing logo should be integrated into the website
+- Additional visual reference shows a warm illustrated e-commerce style with cream, beige, brown and soft yellow tones, cute hand-drawn details, and coordinated desktop/mobile layouts
 
 ## Brand name meaning
 `MAYBE LOVI` has personal meaning:
@@ -87,4 +99,5 @@ Important: sensitive details should not be published directly on the public webs
 
 ## References
 - Client has already provided one main candle/aroma website reference.
+- A new visual reference shows the `notebook therapy` / `Neko Cafe collection` style: warm neutral palette, cute illustration, collection-led hero area, product storytelling, and consistent responsive presentation.
 - She is still looking for more reference websites she likes and will send them later.
