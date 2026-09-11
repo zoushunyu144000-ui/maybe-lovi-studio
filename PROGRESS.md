@@ -3,7 +3,7 @@
 Last updated: 2026-09-11
 
 ## Current phase
-**Figma UI Execution Ready / Full Responsive Design**
+**Figma Foundations Built / Component Construction Pending**
 
 ## Overall status
 - Client discovery: Core direction captured; a few factual items still pending
@@ -12,15 +12,38 @@ Last updated: 2026-09-11
 - Product content: Real products do not exist yet; 5 concept visuals may be used in Figma
 - Trust / origin messaging: Korea and IFRA display positions planned; exact public wording still requires verification
 - Website structure: Full-site Figma scope locked
-- Mobile UI: Detailed 390px mobile-first wireframe specification completed
-- Desktop UI: Detailed 1440px responsive wireframe specification completed
-- Design system: First-round color, typography, spacing, grid, components and responsive rules completed
+- Mobile UI: Detailed 390px mobile-first wireframe specification completed; actual screen construction not yet started
+- Desktop UI: Detailed 1440px responsive wireframe specification completed; actual screen construction not yet started
+- Design system docs: First-round color, typography, spacing, grid, components and responsive rules completed
+- Live Figma file: created and populated with foundations
 - Chinese copy: Homepage + page-level Chinese Figma copy completed as working drafts
 - Admin UI: Login, product list, add/edit and delete-management states specified
 - Multilingual strategy: Chinese master UI + visible Chinese/English/Malay switch control
 - Development: Not started; begins after design approval and agreed payment
 - SEO / GEO: Scope captured; implementation not started
 - QA / launch: Not started
+
+## Live Figma execution
+Figma file:
+`https://www.figma.com/design/4x37I8BY60z6kfPNDFijwA`
+
+Completed in Figma:
+- 3 local variable collections
+- 38 design variables with explicit scopes and Web code syntax
+- 11 local text styles
+- 2 local effect/shadow styles
+- brand palette covering ivory, cream, blush, caramel, cocoa, sage, ink, taupe and subtle border colors
+- typography based on Noto Serif SC + Noto Sans SC for Chinese-first UI
+- cover board
+- foundations board with color, typography, spacing and radius examples
+- top-level project sections for Cover / Foundations / Components / Mobile / Desktop / Admin / Prototype
+
+Figma environment limitation discovered:
+- current authenticated plan reports Starter tier / View seat
+- `createPage()` is rejected in this MCP environment
+- true Component Set creation also currently fails atomically
+- normal canvas nodes, variables, text/effect styles and Sections remain writable
+- temporary file-organization workaround: use top-level Sections instead of separate Figma pages
 
 ## Confirmed design workflow
 - First Figma round covers the full agreed website, not only sample pages.
@@ -34,7 +57,7 @@ Last updated: 2026-09-11
 - Client reviews the full Figma design first; formal website build starts after approval and agreed first-stage/partial payment.
 - Cart, checkout, online payment, member accounts and inventory/order systems remain outside current scope.
 
-## Completed
+## Completed documentation
 - Private GitHub repository created
 - Multi-agent collaboration rules established
 - Initial client requirements captured
@@ -80,7 +103,7 @@ Use these labels in Figma notes:
 - `APPROVED STRUCTURE` — layout / hierarchy approved internally
 
 ## Waiting on client / project owner
-These are not blockers for starting Figma:
+These are not blockers for visual layout work:
 - Clarification of exact Korea-origin claim
 - IFRA document / proof and exact applicable wording
 - Additional reference websites if the client sends more
@@ -91,8 +114,8 @@ These are not blockers for starting Figma:
 - Final translation approval workflow
 
 ## Next actions
-1. Build the Figma foundations page from `design/design-system.md`.
-2. Build reusable components and states.
+1. Resolve or work around current Figma Component Set limitation.
+2. Build reusable visual components in the Components section.
 3. Draw complete 390px mobile public screens first.
 4. Draw mobile menu and language-switch states.
 5. Expand approved mobile hierarchy into 1440px desktop screens.
@@ -103,9 +126,12 @@ These are not blockers for starting Figma:
 10. After design approval/payment, begin website implementation.
 
 ## Blockers
-No blocker for Figma production.
+### Figma tooling blocker
+- Page creation and true Component Set creation are currently blocked by the connected Figma environment / seat capability.
+- Foundations work is not blocked.
+- Full page layouts may still be drawn as ordinary frames inside Sections if needed.
 
-Launch blockers / factual dependencies remain:
+### Launch blockers / factual dependencies
 - exact Korea-origin wording
 - exact IFRA wording/evidence
 - real product data/assets
@@ -113,5 +139,7 @@ Launch blockers / factual dependencies remain:
 
 ## Handoff
 Any agent continuing this project should first read `AGENTS.md`, `docs/client-requirements.md`, `docs/decisions.md`, `docs/pending-questions.md`, then use the six Figma-ready execution documents listed above.
+
+The active Figma file is `4x37I8BY60z6kfPNDFijwA`.
 
 Do not start formal website implementation before client Figma approval and agreed first-stage/partial payment.
