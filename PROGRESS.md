@@ -3,57 +3,65 @@
 Last updated: 2026-09-11
 
 ## Current phase
-**Discovery / Brand & Design Definition**
+**Figma UI Planning / Full Responsive Design**
 
 ## Overall status
-- Client discovery: In progress
+- Client discovery: Core direction captured; a few factual items still pending
 - Brand story: Initial version captured
-- Visual direction: Expanded with new warm illustrated reference; still waiting for more reference websites
-- Product content: Not ready; real products do not exist yet
-- Trust / origin messaging: New requirement captured; exact Korea and IFRA wording needs verification
-- Website structure: Draft pending
-- Development: Not started
+- Visual direction: Reference mix established; more client references may still refine details
+- Product content: Real products do not exist yet; 5 concept visuals may be used in Figma
+- Trust / origin messaging: Korea and IFRA requirement captured; exact wording still needs verification
+- Website structure: Full-site Figma planning underway
+- Mobile UI: Priority platform
+- Desktop UI: Also required
+- Development: Not started; begins after design approval and agreed payment
 - Backend: Not started
 - Multilingual content: Not started
 - SEO / GEO: Scope captured; implementation not started
 - QA / launch: Not started
 
+## Confirmed design workflow
+- First Figma round should cover the full agreed website, not only 2–3 sample pages.
+- Both mobile and desktop versions are required.
+- Mobile is the primary design priority.
+- Homepage balance: roughly 60% product / 40% brand and founder story.
+- Temporary concept product visuals are acceptable until real products exist.
+- Client reviews Figma first; formal website build starts after approval and agreed first-stage/partial payment.
+
 ## Completed
 - Private GitHub repository created
 - Multi-agent collaboration rules established
 - Initial client requirements captured
-- Initial brand story captured
-- Current product situation documented
-- Decision recorded to build brand/page framework first and replace concept imagery later with real product photography
-- New Notebook Therapy / Neko Cafe visual reference recorded
-- New client requirement captured: website should communicate Korea-related origin and IFRA-related fragrance trust information
+- Brand story and current product situation documented
+- Reference direction captured: Candle Club structure + Notebook Therapy / Neko Cafe atmosphere
+- Korea / IFRA trust-message requirement recorded
+- Full responsive Figma scope decision recorded
 
 ## In progress
-- Client is still searching for additional aroma/candle website references
-- Studio is still being arranged; client plans to provide studio photos after setup
-- Need to refine design direction after more reference websites arrive
-- Need exact substantiation for Korea-origin wording and IFRA wording before public-facing copy is finalized
+- Finalize complete page list for Figma
+- Define mobile-first design system and responsive rules
+- Prepare full page-by-page wireframe/content blueprint
 
-## Waiting on client
-- More website references she genuinely likes
-- Clarification of what exactly is from Korea
+## Waiting on client / project owner
+- Clarify whether admin/backend screens should also be included in the Figma presentation
+- Clarify Figma language strategy: one master language vs all three languages designed separately
+- Confirm initial product/category naming used in concept screens
+- Clarification of exact Korea-origin claim
 - IFRA document / proof and exact applicable wording
+- Additional reference websites if the client sends more
 - Studio / workspace photos after setup
-- Final preference for how prominently May appears on the website
-- First product lineup details when products are actually defined
-- Final social links / location / contact details when ready
+- Final contact/social details when ready
 
 ## Next actions
-1. Add and analyze additional client reference websites.
-2. Confirm the exact Korea-origin claim and IFRA documentation.
-3. Extract common visual patterns and define the design system.
-4. Draft homepage information architecture.
-5. Draft concise About May / brand story copy.
-6. Define placeholder/concept product strategy.
-7. Confirm scope boundaries before implementation.
+1. Confirm the remaining Figma scope questions.
+2. Lock the final screen/page inventory.
+3. Build the mobile-first page blueprint and design system.
+4. Expand to desktop responsive layouts.
+5. Assemble a client-review prototype in Figma.
+6. After approval/payment, begin website implementation.
 
 ## Blockers
-No hard blocker. Visual design should not be finalized before the remaining reference websites arrive. Korea/IFRA trust claims should not be finalized until their wording is verified.
+No blocker for Figma planning. Exact Korea/IFRA public copy should not be finalized until verified.
 
 ## Handoff
-Any agent continuing this project should first read `AGENTS.md`, `docs/client-requirements.md`, `docs/decisions.md`, and `docs/pending-questions.md`.
+Any agent continuing this project should first read `AGENTS.md`, `docs/client-requirements.md`, `docs/decisions.md`, `design/page-structure.md`, and `docs/pending-questions.md`.
