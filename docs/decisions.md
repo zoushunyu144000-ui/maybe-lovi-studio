@@ -21,6 +21,7 @@ This file contains confirmed project decisions. Do not place guesses here.
 - Website structure and brand design can be built first.
 - Real product images will replace temporary concept/reference-direction imagery later.
 - Figma can use 5 concept product visuals for presentation, clearly treated as temporary/concept assets.
+- Initial concept categories for design: `Candles / Aroma / Gift Sets` (Chinese UI can present these as 香薰蜡烛 / 香氛 / 礼盒).
 
 ### Founder presence
 - May is open to appearing on the site.
@@ -33,6 +34,13 @@ This file contains confirmed project decisions. Do not place guesses here.
 - First design round will cover the full agreed website, not only a few sample screens.
 - Figma must include both mobile and desktop versions.
 - Mobile is the primary priority; desktop should remain fully designed and consistent.
+
+### Figma scope
+- Front-end screens should be fully designed in the first Figma round.
+- Admin/backend screens are also included in the Figma round at a simple functional level.
+- Primary Figma content language: Chinese.
+- Keep a visible language switch control for Chinese / English / Malay, but do not duplicate every screen in all three languages during Figma design.
+- Public-site Figma should include all key states needed for client approval before development.
 
 ### Figma / approval workflow
 - First complete the full UI design in Figma.
