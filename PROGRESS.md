@@ -3,19 +3,19 @@
 Last updated: 2026-09-11
 
 ## Current phase
-**Figma Foundations Built / Component Construction Pending**
+**Figma Mobile UI In Progress / Starter MCP Call Limit Reached**
 
 ## Overall status
 - Client discovery: Core direction captured; a few factual items still pending
 - Brand story: Initial public-safe narrative captured
 - Visual direction: Candle Club structure + Notebook Therapy / Neko Cafe warmth translated into MAYBE LOVI-specific direction
-- Product content: Real products do not exist yet; 5 concept visuals may be used in Figma
+- Product content: Real products do not exist yet; 5 concept visuals are used in Figma
 - Trust / origin messaging: Korea and IFRA display positions planned; exact public wording still requires verification
 - Website structure: Full-site Figma scope locked
-- Mobile UI: Detailed 390px mobile-first wireframe specification completed; actual screen construction not yet started
+- Mobile UI: 390px homepage construction started; hero, featured products and category entry are live in Figma
 - Desktop UI: Detailed 1440px responsive wireframe specification completed; actual screen construction not yet started
 - Design system docs: First-round color, typography, spacing, grid, components and responsive rules completed
-- Live Figma file: created and populated with foundations
+- Live Figma file: created and populated with foundations + first mobile homepage sections
 - Chinese copy: Homepage + page-level Chinese Figma copy completed as working drafts
 - Admin UI: Login, product list, add/edit and delete-management states specified
 - Multilingual strategy: Chinese master UI + visible Chinese/English/Malay switch control
@@ -36,14 +36,31 @@ Completed in Figma:
 - typography based on Noto Serif SC + Noto Sans SC for Chinese-first UI
 - cover board
 - foundations board with color, typography, spacing and radius examples
-- top-level project sections for Cover / Foundations / Components / Mobile / Desktop / Admin / Prototype
+- top-level project Sections for Cover / Foundations / Components / Mobile / Desktop / Admin / Prototype
+- Mobile Home: announcement strip
+- Mobile Home: brand header with language/menu triggers
+- Mobile Home: hero copy, CTAs and concept candle visual
+- Mobile Home: 5 concept product cards using the agreed placeholder names/prices
+- Mobile Home: 香薰蜡烛 / 香氛 / 礼盒 category entry cards
 
-Figma environment limitation discovered:
-- current authenticated plan reports Starter tier / View seat
-- `createPage()` is rejected in this MCP environment
-- true Component Set creation also currently fails atomically
-- normal canvas nodes, variables, text/effect styles and Sections remain writable
-- temporary file-organization workaround: use top-level Sections instead of separate Figma pages
+Not yet written to Figma:
+- gift occasions
+- About MAYBE LOVI preview
+- Meet May / Studio preview
+- Korea / IFRA trust block
+- contact CTA / footer
+- other mobile public pages
+- desktop screens
+- admin screens
+- prototype flows
+
+## Figma environment notes
+- File is on the Figma Starter / Free plan.
+- Top-level Sections are being used to keep the entire project organized in one design page.
+- Normal frames, auto-layout, variables, styles and ordinary canvas nodes are writable.
+- Figma MCP Starter-plan call quota was reached during mobile homepage construction on 2026-09-11.
+- The quota stopped the next write before it executed, so no partial Gift/Brand/May section was created.
+- Reusable Component Set creation remains deferred; current screens can continue as ordinary auto-layout frames and be componentized later.
 
 ## Confirmed design workflow
 - First Figma round covers the full agreed website, not only sample pages.
@@ -73,28 +90,6 @@ Figma environment limitation discovered:
 - Homepage Chinese working copy created in `content/homepage-copy.md`
 - Full Chinese page/admin working copy created in `content/page-copy-cn.md`
 
-## Figma-ready documentation package
-### Execution
-- `design/figma-execution-plan.md`
-
-### Wireframes
-- `design/mobile-wireframe-spec.md`
-- `design/desktop-wireframe-spec.md`
-
-### Visual system
-- `design/design-system.md`
-
-### Content
-- `content/homepage-copy.md`
-- `content/page-copy-cn.md`
-
-### Existing source-of-truth files still apply
-- `docs/client-requirements.md`
-- `docs/decisions.md`
-- `docs/design-direction.md`
-- `design/page-structure.md`
-- `docs/pending-questions.md`
-
 ## Design-stage annotation rules
 Use these labels in Figma notes:
 - `CONCEPT` — temporary product / visual asset
@@ -114,11 +109,11 @@ These are not blockers for visual layout work:
 - Final translation approval workflow
 
 ## Next actions
-1. Resolve or work around current Figma Component Set limitation.
-2. Build reusable visual components in the Components section.
-3. Draw complete 390px mobile public screens first.
+1. Resume Figma writes when the MCP Starter quota is available again or the plan is upgraded.
+2. Finish the mobile homepage: gift occasions → brand story → Meet May / Studio → trust → contact/footer.
+3. Build complete 390px Shop, Collection, Product Detail, About, Meet May / Studio and Contact screens.
 4. Draw mobile menu and language-switch states.
-5. Expand approved mobile hierarchy into 1440px desktop screens.
+5. Expand the approved mobile hierarchy into 1440px desktop screens.
 6. Draw simple admin screens.
 7. Connect prototype flows for client review.
 8. Run a design QA pass against the acceptance checklists in the wireframe docs.
@@ -127,9 +122,9 @@ These are not blockers for visual layout work:
 
 ## Blockers
 ### Figma tooling blocker
-- Page creation and true Component Set creation are currently blocked by the connected Figma environment / seat capability.
-- Foundations work is not blocked.
-- Full page layouts may still be drawn as ordinary frames inside Sections if needed.
+- Figma MCP Starter-plan call quota is currently exhausted.
+- Existing Figma content is safe and preserved.
+- Resume from `Mobile / Home` after `Category Entry`; do not rebuild the completed hero/product/category sections.
 
 ### Launch blockers / factual dependencies
 - exact Korea-origin wording
@@ -138,8 +133,9 @@ These are not blockers for visual layout work:
 - final contact details
 
 ## Handoff
-Any agent continuing this project should first read `AGENTS.md`, `docs/client-requirements.md`, `docs/decisions.md`, `docs/pending-questions.md`, then use the six Figma-ready execution documents listed above.
+Any agent continuing this project should first read `AGENTS.md`, `docs/client-requirements.md`, `docs/decisions.md`, `docs/pending-questions.md`, then use the six Figma-ready execution documents.
 
 The active Figma file is `4x37I8BY60z6kfPNDFijwA`.
+The current live mobile homepage frame is `Mobile / Home` and is complete through `Category Entry`.
 
 Do not start formal website implementation before client Figma approval and agreed first-stage/partial payment.
