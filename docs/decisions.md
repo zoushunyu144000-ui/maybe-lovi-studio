@@ -47,5 +47,36 @@ This file contains confirmed project decisions. Do not place guesses here.
 - Show the client the design for confirmation before formal website generation/development.
 - Formal build starts after client confirms the design and pays the agreed first-stage/partial payment.
 
-### Scope discipline
-- Shopping cart, checkout, payment gateway, inventory system, customer accounts, and other e-commerce functions are not treated as included unless separately confirmed.
+## 2026-09-13
+
+### Product model
+- First launch uses 5 exterior-style products.
+- Product exterior is the product identity.
+- All 5 products share the same fixed 5-scent set.
+- Scent is a required product option, not an independent product.
+- Different exterior products may have different prices.
+- Within one exterior product, every scent choice uses the same price.
+- The 5 scents are Morning Light Muguet / 晨露铃兰, Jasmine Oolong Tea / 茉莉乌龙茶, La Tulipe (B Type) / 郁金香花园, Peony (L Type) / 粉色牡丹, and Do Son Tuberose (D Type) / 晚香玉.
+- The scent reference graphic was supplied by the client.
+
+### Cart and WhatsApp ordering
+- A lightweight cart is now confirmed in scope.
+- Flow: choose product exterior -> choose scent -> choose quantity -> add to cart -> review cart -> send order through WhatsApp.
+- Same product + same scent may merge quantity; same product + different scent stays as separate cart lines.
+- Cart shows line items, quantities, line totals and subtotal.
+- Shipping, availability and final transaction details are confirmed in WhatsApp.
+- The order action opens the merchant WhatsApp with a dynamically generated cart summary; the customer presses Send.
+- No integrated online checkout is included at this stage.
+
+### Contact and social
+- WhatsApp: `+60 16-523 3840` / config value `60165233840`.
+- Instagram: `https://www.instagram.com/maybe_lovi_scent?stkn=dHptNHR2YjhlMDcz`.
+- Facebook and Xiaohongshu official accounts are not registered yet; reserve their slots without publishing fake links.
+
+### Trust messaging
+- Client wants these messages to be visible: `SDCA 韩国认证香薰蜡烛` and `香水拥有 IFRA 国际标准认证`.
+- These are client-supplied claims. Verify supporting documents and final public wording before launch.
+
+### Product imagery follow-up
+- The first complete build may use temporary/test product imagery while real products are unavailable.
+- After the real products arrive, one follow-up update for the agreed 5 products is included to replace/upload formal product content and the 5 product visuals.
