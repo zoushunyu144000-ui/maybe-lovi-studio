@@ -13,14 +13,15 @@ Last updated: 2026-09-13
 - Product imagery: Real products still do not exist; temporary/test imagery is acceptable for the first complete build.
 - Trust messaging: Client explicitly wants SDCA Korea certification wording and IFRA international-standard wording visible; evidence/final wording still needs verification before public launch.
 - Website structure: Full-site responsive scope locked.
-- Mobile UI: Priority platform, 390px master frame.
-- Desktop UI: Required, 1440px master frame.
+- Mobile UI: Highest-priority experience; 390px master frame with QA at 360/375/390/430px.
+- Desktop UI: Required full layout; 1440px master frame with responsive behavior around 1280px and wider.
+- Responsive requirement: mobile must be perfected first and must not be treated as a simple scaled-down desktop page; desktop must still retain full visual and functional coverage.
 - Cart: Confirmed lightweight cart with scent/quantity selection, subtotal and WhatsApp order handoff.
 - Social/contact: WhatsApp and Instagram confirmed; Facebook and Xiaohongshu pending official account creation.
 - Multilingual strategy: Chinese master UI + visible Chinese/English/Malay switch control.
 - Development: Google AI Studio Web App build has started.
 - SEO / GEO: Scope captured; implementation not finalized.
-- QA / launch: Not started.
+- QA / launch: Not started; final QA order will be mobile first, desktop second.
 
 ## Confirmed product model
 - First launch: 5 different exterior products.
@@ -50,6 +51,14 @@ Last updated: 2026-09-13
 - Shipping and availability are confirmed manually in WhatsApp.
 - No integrated online checkout in the current build.
 
+## Confirmed responsive requirement
+- Both mobile and desktop public-site versions must be built and tested.
+- Mobile is the primary product experience and receives the highest polish priority.
+- Mobile layout, navigation, typography, cards, scent selector, cart and floating actions must be intentionally optimized for touch/narrow screens rather than inherited directly from desktop.
+- Mobile QA widths: 360px, 375px, 390px, 430px.
+- Desktop reference: 1440px, with validation around 1280px and wider screens.
+- Full functional parity is required across both modes for product selection, scent selection, quantity, cart editing, subtotal and WhatsApp ordering.
+
 ## Confirmed contact / social
 - WhatsApp: `+60 16-523 3840`
 - WhatsApp config/link number: `60165233840`
@@ -71,6 +80,7 @@ Before final launch, supporting documents and exact public wording still need to
 - Brand story and product situation documented.
 - Reference direction captured: Candle Club structure + Notebook Therapy / Neko Cafe atmosphere.
 - Full responsive design scope documented.
+- Mobile-first priority and desktop full-support requirement explicitly locked.
 - Product/cart interaction model confirmed.
 - Fixed 5-scent system documented.
 - WhatsApp and Instagram details recorded.
@@ -82,6 +92,7 @@ Before final launch, supporting documents and exact public wording still need to
 - Google AI Studio Web App construction.
 - Integrating the 5-product system into the existing MAYBE LOVI visual design.
 - Building product detail, scent selection, cart and WhatsApp-order states.
+- Perfecting mobile layout/interaction first while retaining a complete desktop experience.
 - Checking that the new commerce interactions do not make the site look like a generic e-commerce template.
 
 ## Waiting on client / project owner
@@ -95,14 +106,15 @@ Before final launch, supporting documents and exact public wording still need to
 
 ## Next actions
 1. Finish the Google AI Studio Web App build.
-2. Review desktop and mobile previews against the existing MAYBE LOVI visual direction.
-3. Test all 5 product -> scent -> quantity -> cart flows.
-4. Test cart merge/separate rules and subtotal calculations.
-5. Test WhatsApp order-message generation using `60165233840`.
-6. Confirm Instagram direct link works.
-7. Keep Facebook and Xiaohongshu inactive/placeholder until real official URLs exist.
-8. After real products arrive, replace temporary imagery/content with the agreed 5 formal product sets.
-9. Verify SDCA and IFRA evidence before final public launch wording is locked.
+2. Review mobile first at 360/375/390/430px and perfect layout, touch targets, typography, image cropping, scent selection and cart behavior.
+3. Review desktop at 1440px and around 1280px for complete responsive adaptation and visual balance.
+4. Test all 5 product -> scent -> quantity -> cart flows on both mobile and desktop.
+5. Test cart merge/separate rules and subtotal calculations.
+6. Test WhatsApp order-message generation using `60165233840`.
+7. Confirm Instagram direct link works.
+8. Keep Facebook and Xiaohongshu inactive/placeholder until real official URLs exist.
+9. After real products arrive, replace temporary imagery/content with the agreed 5 formal product sets.
+10. Verify SDCA and IFRA evidence before final public launch wording is locked.
 
 ## Blockers
 No blocker for continuing the Web App build. Certification wording can remain client-supplied/placeholder content until evidence is checked.
