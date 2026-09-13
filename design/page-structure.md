@@ -5,6 +5,8 @@ Status: Scope locked for first complete Figma round. Visual details may still re
 ## Design strategy
 - Mobile-first responsive design.
 - Primary frames: Mobile 390px and Desktop 1440px.
+- Mobile is the primary experience and must be perfected first; desktop is still a required full layout, not an optional adaptation.
+- Mobile must be intentionally composed for touch and narrow screens rather than simply shrinking desktop layouts.
 - Chinese is the complete master UI language for Figma.
 - Keep language switch controls for Chinese / English / Malay without duplicating every page three times.
 - Homepage balance: roughly 60% product / 40% brand and founder story.
@@ -179,25 +181,40 @@ Keep functional and simple; not part of the public visual storytelling system.
 - publish/save actions
 
 ## Responsive rules
-### Mobile priority
-- 390px master frame
-- single-column reading flow
-- full-width/near-full-width imagery
-- 2-column product grid where readable, otherwise horizontal carousel / single column depending component
-- large tap targets
-- mobile-friendly scent cards
-- cart bottom sheet/drawer must not be blocked by floating WhatsApp CTA
-- sticky or highly visible WhatsApp CTA where appropriate
-- text hierarchy optimized for social-traffic visitors
+### Mobile — highest priority
+- Mobile experience must be the most polished version of the site.
+- Master frame: 390px.
+- QA widths: 360px, 375px, 390px and 430px.
+- Single-column reading flow where it improves clarity.
+- Full-width / near-full-width imagery where appropriate.
+- Product grids may use 2 columns only when cards remain readable; otherwise use a single column or carefully designed horizontal carousel.
+- Touch targets must be comfortably tappable.
+- Typography must be readable without zooming.
+- Header/nav must not crowd the logo.
+- Scent cards must remain easy to scan and select with a thumb.
+- Product-detail CTA should remain highly visible without covering important content.
+- Cart should use a mobile-appropriate bottom sheet, drawer or full-screen state.
+- Cart must not be blocked by the floating WhatsApp CTA.
+- Floating buttons need safe spacing from browser/device bottom areas.
+- Avoid horizontal overflow at all target widths.
+- Ensure image crops, Chinese/English line wrapping, badges and prices remain balanced.
+- Mobile interactions and spacing should be separately tuned instead of inheriting desktop values unchanged.
 
-### Desktop
-- 1440px master frame
-- max content width around 1200px
-- larger editorial whitespace
-- 3–4 column product grids where appropriate
-- right-side cart drawer acceptable
-- split layouts for brand story / founder / studio sections
-- retain the same hierarchy and visual tokens as mobile
+### Desktop — fully supported
+- Master frame: 1440px.
+- Validate behavior at approximately 1280px and wider desktop screens.
+- Max content width around 1200px unless a full-bleed visual section intentionally needs more.
+- Use larger editorial whitespace while preserving the same visual language as mobile.
+- 3–4 column product grids are acceptable where appropriate.
+- Right-side cart drawer is acceptable.
+- Split layouts may be used for brand story / founder / studio sections.
+- Header should expose navigation cleanly without becoming overly dense.
+- Desktop must include the complete product, scent, cart, subtotal, social and WhatsApp-order flow; it is not a reduced secondary version.
+
+### Functional parity and QA order
+- Product browsing, product detail, scent selection, quantity selection, Add to Cart, cart editing, subtotal calculation and WhatsApp order handoff must all work on both mobile and desktop.
+- Responsive adaptation may change layout and interaction presentation, but not remove required functions.
+- Final QA priority is mobile first, desktop second.
 
 ## Approval boundary
 Figma is used to approve page structure, visual system, responsive direction, component style and overall content hierarchy. Real product imagery and final product copy may still be replaced/updated before launch. SDCA/IFRA wording is client-required content but should be matched to supporting evidence before final public publication.
