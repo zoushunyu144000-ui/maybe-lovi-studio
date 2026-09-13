@@ -80,3 +80,11 @@ This file contains confirmed project decisions. Do not place guesses here.
 ### Product imagery follow-up
 - The first complete build may use temporary/test product imagery while real products are unavailable.
 - After the real products arrive, one follow-up update for the agreed 5 products is included to replace/upload formal product content and the 5 product visuals.
+
+### Responsive implementation priority
+- Both mobile and desktop public-site layouts are required.
+- Mobile is the primary experience and must be treated as the highest-polish target, not as a desktop layout merely scaled down.
+- Mobile QA should prioritize 360px, 375px, 390px and 430px widths.
+- Desktop must still be fully designed, responsive and functionally complete, with 1440px as the main reference and proper behavior around 1280px and larger widths.
+- Product selection, scent selection, cart editing, subtotal and WhatsApp ordering must work equivalently on both mobile and desktop.
+- Final visual/interaction QA order: mobile first, desktop second.
