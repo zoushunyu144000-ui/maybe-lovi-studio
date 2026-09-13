@@ -50,6 +50,15 @@ Status: Working source of truth for confirmed client facts.
    - Real products are not yet available, so temporary/test imagery may be used for the first complete website build.
    - After the client's real products arrive, one follow-up product-content update is included: replace/upload the formal product information and the agreed 5 product visuals.
 
+## Responsive / device priority
+- The public website must have a complete desktop layout as well as a complete mobile layout.
+- Mobile is the primary platform and must receive the highest level of polish.
+- Mobile behavior should not be treated as a simple scaled-down desktop page; layout, navigation, product cards, scent selection, cart, typography and spacing must be intentionally optimized for touch and narrow screens.
+- Core mobile target widths: 360px, 375px, 390px and 430px.
+- Desktop must remain fully usable and visually complete, with 1440px as the main design/build reference and sensible behavior around 1280px and wider screens.
+- Functional parity is required across mobile and desktop for product selection, cart, subtotal and WhatsApp order handoff.
+- Final QA priority: mobile first, desktop second.
+
 ## Fixed scent system
 All 5 exterior products use the same scent set. Scent is an option/variant, not an independent product.
 
