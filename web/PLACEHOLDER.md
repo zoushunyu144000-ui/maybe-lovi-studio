@@ -1,1 +1,0 @@
-Temporary placeholder for the production web app bootstrap. This file will be removed after the app scaffold is committed.
